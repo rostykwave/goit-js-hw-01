@@ -1,7 +1,7 @@
 const ADMIN_PASSWORD = 'jqueryismyjam';
 let message;
 
-const password = prompt('Пароль');
+const password = prompt('Введіть пароль: ');
 if (password === null) {
     console.log(message = 'Скасовано користувачем!');
 } else if (password === ADMIN_PASSWORD) {

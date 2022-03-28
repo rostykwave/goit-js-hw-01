@@ -1,13 +1,9 @@
 const name = 'Генератор захисного поля';
 let price = 1000;
 
-let result = `Обрано "${name}", ціна за штуку ${price} кредитів `;
-
-console.log(result);
+console.log(`Обрано "${name}", ціна за штуку ${price} кредитів `);
 
 ///Нова ціна 2000
 price = 2000;
 
-result = `Обрано "${name}", ціна за штуку ${price} кредитів `;
-
-console.log(result);
+console.log(`Обрано "${name}", ціна за штуку ${price} кредитів `);

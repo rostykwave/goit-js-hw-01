@@ -6,7 +6,7 @@ const order = prompt('Скільки дроїдів Ви хочете придб
 
 if (order === null) {
     console.log('Скасовано користувачем!');
-} else if ((pricePerDroid * order) < credits) {
-    console.log(`Ви купили ${order} дроїдів, на рахунку залишилося ${(credits - (pricePerDroid * order))} кредитів.`);
-} else (console.log('Недостатньо коштів на рахунку!'))
+} else if ((pricePerDroid * order) > credits) {
+    console.log('Недостатньо коштів на рахунку!'); 
+} else console.log(`Ви купили ${order} дроїдів, на рахунку залишилося ${(credits - (pricePerDroid * order))} кредитів.`);
     
